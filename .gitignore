@@ -8,3 +8,6 @@ __pycache__/
 *.jpg
 *.jpeg
 *.bmp
+
+*.deb
+build_deb/

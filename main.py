@@ -1110,7 +1110,7 @@ class PaintApp(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     app.setDesktopFileName("linux-paint")
-    app.setWindowIcon(QIcon("/home/aleixandre/linux-paint/icon.svg"))
+    import os; app.setWindowIcon(QIcon(os.path.join(os.path.dirname(__file__), "icon.svg")))
     window = PaintApp()
     window.show()
     sys.exit(app.exec())
