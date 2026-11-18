@@ -37,7 +37,7 @@ Aplicación de dibujo y edición básica de imágenes para escritorio Linux insp
 ## Instalación y ejecución
 
 1. Clona el repositorio y entra en la carpeta:
-   `git clone https://github.com/AleixandreD/linux-paint.git && cd linux-paint`
+   `git clone https://github.com/AlexDsoft/linux-paint.git && cd linux-paint`
 2. Crea un entorno virtual e instala las dependencias:
    `python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt`
 3. Ejecuta la aplicación:
